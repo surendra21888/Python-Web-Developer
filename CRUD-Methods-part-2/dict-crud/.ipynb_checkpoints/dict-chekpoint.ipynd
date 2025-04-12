@@ -1,0 +1,74 @@
+in [2]:
+emp={
+    'eid':101,
+    'ename':'Rahul',
+    'esal':45000.45,
+    'loc':'Wayanad'
+}
+#read operation
+print(emp)
+#read dict value
+print(emp['eid'])
+print(emp['ename'])
+print(emp['esal'])
+print(emp['loc'])
+print(emp['email']) #
+{'eid': 101, 'ename': 'Rahul', 'esal': 45000.45, 'loc': 'Wayanad'}
+101
+Rahul
+45000.45
+Wayanad
+------------------------------------------------------------------------
+KeyError                               Traceback (most recent call last)
+Cell In[2], line 14
+     12 print(emp['esal'])
+     13 print(emp['loc'])
+---> 14 print(emp['email']) #
+
+KeyError: 'email'
+emp={
+    'eid':101,
+    'ename':'Rahul',
+    'esal':45000.45,
+    'loc':'Wayanad'
+}
+#print all keys
+for key in emp.keys():
+    print(key)
+#print all valeus
+for value in emp.values():
+    print(value)
+eid
+ename
+esal
+loc
+101
+Rahul
+45000.45
+Wayanad
+emp={
+    'eid':101,
+    'ename':'Rahul',
+    'esal':45000.45,
+    'loc':'Wayanad'
+}
+#print all items
+for item in emp.items():
+    print(item)
+('eid', 101)
+('ename', 'Rahul')
+('esal', 45000.45)
+('loc', 'Wayanad')
+emp={
+    'eid':101,
+    'ename':'Rahul',
+    'esal':45000.45,
+    'loc':'Wayanad'
+}
+print(emp.keys())
+print(emp.values())
+print(emp.items())
+dict_keys(['eid', 'ename', 'esal', 'loc'])
+dict_values([101, 'Rahul', 45000.45, 'Wayanad'])
+dict_items([('eid', 101), ('ename', 'Rahul'), ('esal', 45000.45), ('loc', 'Wayanad')])
+ 
