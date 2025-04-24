@@ -8,4 +8,4 @@ try:
     print("New Employee Doc inserted successfully")
 
 except Exception as err:
-    print(err)
+    print(err)  
